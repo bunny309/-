@@ -4,12 +4,18 @@ Vue.use(VueRouter)
 
 // 导入组件
 import login from '../components/login.vue'
+import index from '../components/index.vue'
 
 // 规则
 let routes = [
     {
         path:'/login',
         component:login
+    },
+    // 首页
+    {
+        path:'/index',
+        component:index
     }
 ]
 
